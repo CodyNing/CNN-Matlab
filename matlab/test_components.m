@@ -8,8 +8,8 @@ resultsdir = '../results';
 
 test_conv_1();
 test_conv_2();
-% test_pooling_1();
-% test_inner_1();
+test_pooling_1();
+test_inner_1();
 
 function test_pooling_1()
     input.data = zeros(36*3,2);
